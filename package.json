@@ -21,7 +21,6 @@
     "date-fns": "^4.1.0",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "express-async-errors": "^3.1.1",
     "express-async-handler": "^1.2.0",
     "express-rate-limit": "^7.5.0",
     "jsonwebtoken": "^9.0.2",
