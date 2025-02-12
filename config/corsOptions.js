@@ -2,6 +2,7 @@ import allowedOrigins from "./allowedOrigins.js";
 
 const corsOptions = {
   origin: (origin, callback) => {
+     console.log('CORS Origin:', origin);
     if(allowedOrigins.indexOf(origin) !== -1) { // apply the origin only if you want allow post man
       callback(null, true)
     } else {
